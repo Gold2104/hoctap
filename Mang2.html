@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tìm số lớn nhất trong mảng</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            let numbers =[10,45,2,99,23,];
+            let max = numbers[0]; // Giả sử số đầu tiên là lớn nhất
+            for(let num=1; num < numbers.length; num++){
+                if(numbers[num] > max){
+                    max = numbers[num]; // Cập nhật số lớn nhất
+                }
+            }
+            document.write("Số lớn nhất trong mảng là: " + max);
+        </script>
+    </body>
+</html>
